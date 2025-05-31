@@ -55,7 +55,7 @@ export const temas: TemasType = {
         explanation: "A fotossíntese é o processo pelo qual as plantas utilizam luz solar, água e dióxido de carbono para produzir glicose e oxigênio.",
         dificuldade: "facil"
       },
-      
+
       // Médio
       {
         question: "Qual é a velocidade da luz no vácuo?",
@@ -92,7 +92,7 @@ export const temas: TemasType = {
         explanation: "O dióxido de carbono (CO2) é o principal gás de efeito estufa responsável pelo aquecimento global, principalmente devido à queima de combustíveis fósseis.",
         dificuldade: "medio"
       },
-      
+
       // Difícil
       {
         question: "Qual partícula subatômica foi prevista teoricamente por Paul Dirac antes de ser descoberta experimentalmente?",
@@ -205,7 +205,7 @@ export const temas: TemasType = {
         explanation: "A Mona Lisa foi pintada pelo artista italiano Leonardo da Vinci entre 1503 e 1506, sendo uma das obras de arte mais famosas do mundo.",
         dificuldade: "facil"
       },
-      
+
       // Médio
       {
         question: "Em que ano aconteceu a Revolução Francesa?",
@@ -242,7 +242,7 @@ export const temas: TemasType = {
         explanation: "A Operação Overlord, realizada em 6 de junho de 1944 (Dia D), foi o codinome para o desembarque das tropas aliadas nas praias da Normandia, na França ocupada pelos nazistas.",
         dificuldade: "medio"
       },
-      
+
       // Difícil
       {
         question: "Qual foi o nome do último imperador da China, que abdicou em 1912?",
@@ -355,7 +355,7 @@ export const temas: TemasType = {
         explanation: "O Oceano Pacífico é o maior oceano do mundo, cobrindo cerca de um terço da superfície terrestre.",
         dificuldade: "facil"
       },
-      
+
       // Médio
       {
         question: "Qual é o país com o maior número de fronteiras terrestres?",
@@ -392,7 +392,7 @@ export const temas: TemasType = {
         explanation: "O Deserto da Antártida é considerado o maior deserto do mundo, pois desertos são definidos pela baixa precipitação, não necessariamente pelo calor. A Antártida recebe menos de 200 mm de precipitação por ano.",
         dificuldade: "medio"
       },
-      
+
       // Difícil
       {
         question: "Qual é o nome do fenômeno climático caracterizado pelo aquecimento anormal das águas do Oceano Pacífico equatorial?",
@@ -472,4 +472,148 @@ export const temas: TemasType = {
       // Fácil
       {
         question: "Qual é o plural de 'cidadão'?",
-        options: ["Cidadões", "Cidadãos", "Cidadães",\
+        options: ["Cidadões", "Cidadãos", "Cidadães", "Cidadãos"],
+        correctAnswer: 1,
+        explanation: "O plural de 'cidadão' é 'cidadãos', seguindo a regra geral para substantivos terminados em -ão que formam o plural em -ãos.",
+        dificuldade: "facil"
+      },
+      {
+        question: "Qual é a classe gramatical da palavra 'muito' na frase 'Ele comeu muito'?",
+        options: ["Substantivo", "Adjetivo", "Advérbio", "Pronome"],
+        correctAnswer: 2,
+        explanation: "Na frase 'Ele comeu muito', 'muito' modifica o verbo 'comeu', indicando intensidade, portanto, é um advérbio de intensidade.",
+        dificuldade: "facil"
+      },
+      {
+        question: "Qual é a função sintática do termo em destaque em 'O livro **de Maria** é interessante'?",
+        options: ["Objeto direto", "Objeto indireto", "Adjunto adnominal", "Complemento nominal"],
+        correctAnswer: 2,
+        explanation: "Em 'O livro de Maria é interessante', 'de Maria' qualifica o substantivo 'livro', sendo um adjunto adnominal, pois indica posse.",
+        dificuldade: "facil"
+      },
+      {
+        question: "Qual das palavras abaixo é um advérbio de tempo?",
+        options: ["Rapidamente", "Longe", "Ontem", "Muito"],
+        correctAnswer: 2,
+        explanation: "'Ontem' é um advérbio de tempo, pois indica o momento em que a ação ocorre.",
+        dificuldade: "facil"
+      },
+      {
+        question: "Qual é o substantivo coletivo de 'peixes'?",
+        options: ["Cardume", "Colmeia", "Alcateia", "Manada"],
+        correctAnswer: 0,
+        explanation: "O substantivo coletivo para um conjunto de peixes é 'cardume'.",
+        dificuldade: "facil"
+      },
+
+      // Médio
+      {
+        question: "Qual figura de linguagem consiste em usar uma parte para representar o todo ou o todo para representar uma parte?",
+        options: ["Metáfora", "Comparação", "Metonímia", "Eufemismo"],
+        correctAnswer: 2,
+        explanation: "A metonímia é a figura de linguagem que consiste em empregar um termo por outro, com base em uma relação de proximidade ou interdependência, como a parte pelo todo ('ler Machado de Assis' em vez de 'ler as obras de Machado de Assis').",
+        dificuldade: "medio"
+      },
+      {
+        question: "Qual é o tipo de oração subordinada que expressa uma condição?",
+        options: ["Subordinada Adverbial Causal", "Subordinada Adverbial Concessiva", "Subordinada Adverbial Condicional", "Subordinada Adverbial Conformativa"],
+        correctAnswer: 2,
+        explanation: "A oração subordinada adverbial condicional expressa uma condição para que o fato da oração principal ocorra, sendo introduzida por conjunções como 'se', 'caso', 'contanto que'.",
+        dificuldade: "medio"
+      },
+      {
+        question: "Qual o nome do movimento literário brasileiro que tinha como principais características o subjetivismo, o egocentrismo e o pessimismo?",
+        options: ["Romantismo", "Realismo", "Modernismo", "Parnasianismo"],
+        correctAnswer: 0,
+        explanation: "O Romantismo, que se manifestou no Brasil a partir de meados do século XIX, era caracterizado pelo subjetivismo, egocentrismo, sentimentalismo, idealização da mulher e da natureza, e, em alguns casos, pessimismo.",
+        dificuldade: "medio"
+      },
+      {
+        question: "Em qual das frases abaixo o 'que' funciona como pronome relativo?",
+        options: ["Eu sei que ele vem.", "Que dia lindo!", "O livro que comprei é ótimo.", "Quero que você estude."],
+        correctAnswer: 2,
+        explanation: "Em 'O livro que comprei é ótimo', o 'que' retoma o substantivo 'livro' e introduz uma oração subordinada adjetiva, funcionando como pronome relativo.",
+        dificuldade: "medio"
+      },
+      {
+        question: "Qual é o correto emprego do termo 'há' ou 'a' na frase: '______ dois anos, visitei Paris'?",
+        options: ["A", "Há", "Ah", "Havia"],
+        correctAnswer: 1,
+        explanation: "O correto é 'Há', pois indica tempo passado (sentido de 'faz'), derivado do verbo haver. 'Há dois anos' significa 'Faz dois anos'.",
+        dificuldade: "facil"
+      },
+
+      // Difícil
+      {
+        question: "Qual é o nome da figura de linguagem que consiste em atribuir características humanas a seres inanimados ou animais?",
+        options: ["Personificação", "Hipérbole", "Ironia", "Onomatopeia"],
+        correctAnswer: 0,
+        explanation: "A personificação (ou prosopopeia) é a figura de linguagem que atribui qualidades, sentimentos ou ações humanas a seres inanimados, animais ou conceitos abstratos.",
+        dificuldade: "dificil"
+      },
+      {
+        question: "Qual dos autores abaixo é considerado um dos maiores expoentes do Realismo brasileiro?",
+        options: ["José de Alencar", "Machado de Assis", "Manuel Bandeira", "Carlos Drummond de Andrade"],
+        correctAnswer: 1,
+        explanation: "Machado de Assis é amplamente considerado o maior escritor do Realismo brasileiro, com obras como 'Dom Casmurro' e 'Memórias Póstumas de Brás Cubas', que se destacam pela análise psicológica e crítica social.",
+        dificuldade: "dificil"
+      },
+      {
+        question: "Qual é a função sintática do termo em destaque em 'Precisamos **de ajuda**'?",
+        options: ["Objeto direto", "Objeto indireto", "Complemento nominal", "Agente da passiva"],
+        correctAnswer: 1,
+        explanation: "Em 'Precisamos de ajuda', o verbo 'precisar' exige a preposição 'de', e o termo 'de ajuda' completa o sentido do verbo, sendo um objeto indireto.",
+        dificuldade: "dificil"
+      },
+      {
+        question: "Qual o nome do fenômeno linguístico que consiste na fusão de dois sons vocálicos iguais ou semelhantes, resultando em um único som?",
+        options: ["Ditongo", "Hiato", "Crase", "Elisão"],
+        correctAnswer: 3,
+        explanation: "A elisão é o fenômeno fonético que consiste na supressão de uma vogal final de uma palavra quando a próxima palavra começa por vogal, ou a fusão de duas vogais iguais ou semelhantes, resultando em um único som.",
+        dificuldade: "dificil"
+      },
+      {
+        question: "Qual é a classificação da oração 'Quando ele chegou, todos se calaram'?",
+        options: ["Oração Coordenada Sindética Aditiva", "Oração Subordinada Adverbial Temporal", "Oração Subordinada Substantiva Subjetiva", "Oração Subordinada Adverbial Causal"],
+        correctAnswer: 1,
+        explanation: "A oração 'Quando ele chegou' é uma oração subordinada adverbial temporal, pois expressa a ideia de tempo e é introduzida pela conjunção 'quando'.",
+        dificuldade: "dificil"
+      },
+      {
+        question: "Qual das opções apresenta um erro de concordância verbal?",
+        options: ["Fazem dois anos que não o vejo.", "Haviam muitas pessoas na festa.", "A maioria dos alunos chegou cedo.", "Devem haver soluções para o problema."],
+        correctAnswer: 1,
+        explanation: "O erro está em 'Haviam muitas pessoas na festa.'. O verbo 'haver' no sentido de 'existir' é impessoal (não possui sujeito), devendo ser usado sempre na terceira pessoa do singular: 'Havia muitas pessoas na festa.'.",
+        dificuldade: "dificil"
+      },
+      {
+        question: "Qual é a figura de linguagem presente na frase 'O Sol beijava as montanhas'?",
+        options: ["Metáfora", "Personificação", "Comparação", "Antítese"],
+        correctAnswer: 1,
+        explanation: "A frase 'O Sol beijava as montanhas' apresenta **personificação**, pois atribui ao Sol (um ser inanimado) a ação humana de 'beijar'.",
+        dificuldade: "dificil"
+      },
+      {
+        question: "Qual o nome do fenômeno fonético em que há a queda de um som no final de uma palavra?",
+        options: ["Apócope", "Síncope", "Epêntese", "Paragoge"],
+        correctAnswer: 0,
+        explanation: "Apócope é o fenômeno fonético que consiste na supressão de um ou mais fonemas no final de uma palavra (ex: 'grão' de 'grande', 'você' de 'vossa mercê').",
+        dificuldade: "dificil"
+      },
+      {
+        question: "Qual das alternativas contém um exemplo de ambiguidade?",
+        options: ["João e Maria foram ao parque.", "Ele viu o homem com o binóculo.", "Comprei um carro novo.", "A menina estudou muito."],
+        correctAnswer: 1,
+        explanation: "A frase 'Ele viu o homem com o binóculo' é ambígua, pois não fica claro se 'ele' usou o binóculo para ver o homem ou se o homem estava com o binóculo.",
+        dificuldade: "dificil"
+      },
+      {
+        question: "Qual é o plural de 'guarda-chuva'?",
+        options: ["Guarda-chuvas", "Guardas-chuva", "Guarda-chuva", "Guardas-chuvas"],
+        correctAnswer: 0,
+        explanation: "O plural de 'guarda-chuva' é 'guarda-chuvas', pois em substantivos compostos formados por verbo + substantivo, apenas o substantivo vai para o plural.",
+        dificuldade: "dificil"
+      }
+    ]
+  }
+}
